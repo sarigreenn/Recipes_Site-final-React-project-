@@ -1,0 +1,89 @@
+
+
+body {
+  /* שינוי */
+  background-image: url('../images/רקע\ חלק.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+  }
+.notpizaBackground{
+ 
+  /* background-image: url('../images/רקע\ חלק.jpg');
+  z-index: 1;
+  width: 100%;
+  margin-left: 0px;
+ margin-right: 0px;
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+   margin: 0 auto;
+  padding: 0;
+  background-image: url('../images/רקע\ חלק.jpg');
+  z-index: 1;
+  width: 30%;
+  text-align: center;
+  margin-left: 0px;
+ margin-right: 0px;
+  background-size: cover;
+ 
+  margin: 0 auto;
+  padding: 0;
+} */
+
+  .home-page {
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start; 
+    height: 100vh;
+    /* שינוי */
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .header{
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start; 
+    height: 20vh;
+    /* שינוי */
+    background-image: url('../images/רקע\ חלק.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+  
+  .link-container {
+    display: flex; 
+    margin-top: 50px;
+  }
+  
+  .link {
+    margin-bottom: 10px;
+    padding: 10px 20px; 
+    background-color: white; 
+    border: 2px solid rgb(162, 8, 8); 
+    color:  rgb(162, 8, 8); 
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; 
+    border-radius: 20px; 
+    margin-bottom: 150px;
+  }
+  
+  .link:hover {
+    background-color:  rgb(162, 8, 8); 
+    color: white; 
+    border-color: white; 
+  }
+ .si{
+  display: flex; 
+    justify-content: center; 
+    align-items: flex-start; 
+    height: 100vh;
+    /* שינוי */
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+ } 
+  
+  
